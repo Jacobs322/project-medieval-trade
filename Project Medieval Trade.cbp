@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Project Medieval Trade" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Project Medieval Trade" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Project Medieval Trade" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Building.cpp" />
+		<Unit filename="Building.h" />
+		<Unit filename="Connectable.cpp" />
+		<Unit filename="Connectable.h" />
+		<Unit filename="Game.cpp" />
+		<Unit filename="Game.h" />
+		<Unit filename="MapNode.cpp" />
+		<Unit filename="MapNode.h" />
+		<Unit filename="Menu.cpp" />
+		<Unit filename="Menu.h" />
+		<Unit filename="Message.cpp" />
+		<Unit filename="Message.h" />
+		<Unit filename="Project Medieval Trade.cbp" />
+		<Unit filename="Route.cpp" />
+		<Unit filename="Route.h" />
+		<Unit filename="Settlement.cpp" />
+		<Unit filename="Settlement.h" />
+		<Unit filename="Stockpile.cpp" />
+		<Unit filename="Stockpile.h" />
+		<Unit filename="helpers.cpp" />
+		<Unit filename="helpers.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
